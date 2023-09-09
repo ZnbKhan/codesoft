@@ -111,16 +111,17 @@ flex: 4;
 
 .banner{
     grid-area: banner;
-    /* background-image: url('./image/banner.jpg');
+    padding-top:10%;
+    background-image: url('./image/banner.jpg');
     background-size:cover;
     background-position:center;
-    background-repeat: no-repeat;   */
-    background: radial-gradient(circle, #94A684, #FFEEF4);
+    background-repeat: no-repeat;  
+    /* background: radial-gradient(circle, #94A684, #FFEEF4); */
     position: relative;
 }
 .banner-text{
   position: absolute;
-  top: 50%;
+  top:30%;
   left: 50%;
   transform: translate(-50%, -50%);
   
